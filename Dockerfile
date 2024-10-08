@@ -1,4 +1,4 @@
-FROM python3:3
+FROM python:3
 RUN pip3 install django==3.2
 
 COPY . .
